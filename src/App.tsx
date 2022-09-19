@@ -1,12 +1,15 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import TextProvider from './hooks/contextHook';
 import { AppRoutes, routes } from './routes';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
+  
   return (
+    <TextProvider>
     <Suspense fallback={null}> 
-          <GlobalStyles />
+            <GlobalStyles />
     <Router> 
       <Routes>
  
@@ -19,6 +22,8 @@ const App = () => {
     </Routes>
     </Router>
     </Suspense>
+    </TextProvider>
+    
   );
 };
 
