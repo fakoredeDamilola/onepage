@@ -1,0 +1,2 @@
+export const backgroundColors = ["#3D3B8E","#3D3B8E","#22AED1","#A9E4EF","#909590","#34252F","#D6BA73","#EEE4E1","#6D213C","#48ACF0","#214E34"]
+export const colors = ["#6883BA","#FFECD1","#3D3B8E","#3D3B8E","#9AE19D","#A4B494","#F5E0B7","#B2967D","#BAAB68","#93A3BC","#979B8D"]
