@@ -32,6 +32,7 @@ imageName:"onepager"
 })
 
 const changeUserText = (text: string) => {
+    console.log(text);
     setUserText(text);
     }
 
